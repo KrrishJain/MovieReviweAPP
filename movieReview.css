@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+}
+
+nav{
+    width: 100%;
+    height: 4vw;
+    background-color: rgb(49, 185, 239);
+}
+input{
+    width: 20vw;
+    height: 2vw;
+    margin-top: 1vw;
+    margin-left: 75vw;
+    border-radius: 20px;
+    border:  2px #222 solid ;
+}
+#searchBtn{
+    width: 4.1vw;
+    height: 2.4vw;
+    border-radius: 10px;
+    font-size: 1vw;
+    font-weight: 700;
+    background:#000;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#searchBtn:hover{
+    scale: 1.1;
+    background: #fff;
+    color: #000;
+}
+.mainHide{
+    display: none;
+}
+#result{
+    width: 45vw;
+    background: white;
+    margin-left: 30vw;
+    margin-top: 6vw;
+    display: flex !important; 
+}
+
+.imgholder{
+    background:  rgb(7, 181, 250);
+    color: #000;
+}
+
+.movieTitle{
+    text-align: center;
+}
+.info{
+    background: #000;
+    width: 100%;
+    color: #fff;
+}
+.date{
+    font-size: 2vw;
+    margin-bottom: 3vw;
+    margin-top: -2vw;
+    margin-left: 1vw; 
+}
+.overView{
+    font-size: 1.4vw;
+    /* margin-top: 1.4vw; */
+    margin-left: 0.8vw;
+    margin-bottom: 1vw;
+}
+.runtime{
+    width: 3vw;
+    height: 10vw;
+    font-size: 1.5vw;
+    border-radius: 8px;
+    margin-left: 1vw;
+    background: rgb(49, 185, 239);
+}
+.director{
+    font-size: 1.8vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.genre{
+    font-size: 1.8vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
